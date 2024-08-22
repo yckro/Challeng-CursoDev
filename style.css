@@ -1,23 +1,48 @@
-html {
-    background-color: hsla(327, 36%, 43%, 0.99);
+body {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-body{
-    background-color: chocolate;
-    border: solid 5px;
+.container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+    width: 500px;
+    border: solid 2px;
 }
 
-.titulo{
-    background-color: black;
-    border: solid 4px whitesmoke;
-    margin: 7px;
-    color: aqua;
-}
-
-.lista{
-    background-color: #000000;
-    border-radius: 30px;
-    color: whitesmoke;
+.cards {
+    padding: 10px;
     margin: 10px;
-    padding: 30px ;
+    border-radius: 5px;
+    border: solid 2px;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+
+
+.titulo {
+    margin: 7px;
+}
+
+.lista {
+    background-color: #000000;
+    color: whitesmoke;
+    padding: 10px;
 }
